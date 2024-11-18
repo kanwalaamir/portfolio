@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(255, 141, 179);
+    width: 20vw;
+    font-family: sans-serif;
+    height: 100vh;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    background-color: rgb(236, 190, 190);
+    width: 90vw;
+
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(250, 174, 227);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hello {
+    font-size: 65px;
+
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-top: 23px;
+}
+
+.button {
+    margin-top: 34px;
+}
+
+.button button {
+    margin-top: 34px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.button button :hover {
+
+    color: white;
+}
+
+.button button a {
+    text-decoration: none;
+}
+
+.devpic img {
+    height: 58vh;
+
+}
+
+.container1 {
+
+    font-size: 15px;
+    font-family: sans-serif;
+    background-color: rgb(236, 190, 190);
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.container3 {
+    background-color: rgb(236, 190, 190);
+    width: 100%;
+}
+.container3 P{
+    margin: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.information {
+    background-color: rgb(236, 190, 190);
+    margin: 95px;
+ font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
